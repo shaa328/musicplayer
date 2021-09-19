@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  outline: 0;
+}
+body {
+  background-color: #e1e6ec;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  padding: 16px;
+  width: 300px;
+  border-radius: 8px;
+  background-color: #e1e6ec;
+  box-shadow: 5px 5px 11px #a2b1c6, -5px -5px 11px #fff;
+  text-align: center;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+.container h1 {
+  font-size: 1.5rem;
+  margin: 12px 0;
+}
+.container img {
+  width: 80%;
+  margin-bottom: 12px;
+}
+.level {
+  width: 80%;
+  appearance: none;
+  background-color: #e1e6ec;
+  box-shadow: 5px 5px 11px #a2b1c6, -5px -5px 11px #fff;
+  border-radius: 25px;
+  margin-bottom: 12px;
+}
+.level::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #a2b1c6;
+  box-shadow: 2px 2px 5px #a2b1c6, -2px -2px 5px #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+}
+.btn {
+  display: inline-block;
+  margin: 12px 0;
+}
+.btn button {
+  posititon: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #e1e6ec;
+  box-shadow: 2px 2px 5px #a2b1c6, -2px -2px 5px #fff;
+  border: none;
+}
+.btn button:active {
+  background-color: #e1e6ec;
+  box-shadow: inset 2px 2px 5px #a2b1c6, -2px -2px 5px #fff;
+}
+#play {
+  margin: 0 16px;
+}
+.btn button img {
+  width: 100%;
+}
